@@ -1,0 +1,92 @@
+jufyizemlu@gufum.com
+
+
+Core Features (MVP)
+1. Dashboard
+Overview of current balance, total income, total expenses, savings
+
+Visual charts (pie, bar) showing spending breakdown by category
+
+2. Expense Tracking
+Add, edit, delete expenses
+
+Categorize expenses (Food, Rent, Entertainment, etc.)
+
+Recurring expenses (subscriptions, bills)
+
+3. Income Tracking
+Add/edit/delete income sources (salary, freelance, investments)
+
+Recurring income support
+
+4. Budgeting
+Set monthly or weekly budgets per category
+
+Track budget progress & alerts on overspending
+
+5. Reports & Analytics
+Spending trends over time (weekly, monthly, yearly)
+
+Category-wise expense reports
+
+Income vs expense comparison
+
+6. User Authentication
+Signup/login (email, social logins)
+
+Secure password storage (hashing)
+
+Profile management
+
+Advanced Features
+7. Financial Goals
+Set savings or debt payoff goals
+
+Track progress with visual feedback
+
+8. Bill Reminders
+Notifications for upcoming bills or due dates
+
+Email or push notifications
+
+9. Multiple Accounts & Currencies
+Track multiple bank accounts or wallets
+
+Support multi-currency with exchange rates
+
+10. Data Import/Export
+Import transactions from CSV, bank statements
+
+Export reports or data for tax or personal use
+
+11. Integrations
+Connect with bank APIs (Plaid, Yodlee) for auto-syncing transactions
+
+Integrate with payment gateways or wallets
+
+12. Collaborative Features
+Share budgets or financial goals with family or advisors
+
+Multi-user support on same account
+
+Nice-to-Have / Future Features
+13. AI-based Insights
+Personalized tips on saving money
+
+Predict upcoming expenses based on history
+
+14. Investment Tracking
+Track stocks, bonds, crypto portfolios
+
+Performance analytics & alerts
+
+15. Tax Calculations & Reports
+Estimate tax liabilities
+
+Generate tax reports for filing
+
+16. Mobile App / PWA
+Responsive web design or dedicated mobile apps
+
+Offline data entry & sync
+
