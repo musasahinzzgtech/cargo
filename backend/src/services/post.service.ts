@@ -1,21 +1,18 @@
-
 import { HttpStatusCode } from 'axios';
 import { createResponse } from '../utils/service.helpers';
 import PostModel from '../models/post.model';
+import UserModel from '../models/user.model';
 
-export const createPost = async ({
-  author,
-  content,
-  images = [],
-}: {
-  author: string; // MongoDB ObjectId (from req.user.id or similar)
-  content: string;
-  images?: string[];
-}) => {
-  const newPost = await PostModel.create({
-    author,
+export const createPost = async ({ content, images = [], user }: any) => {
+  const userMongo = await UserModel.findOne({ uid: user?.uid });
+  console.log('userMongo', userMongo, {
+    author: userMongo?.[0]?._id,
     content,
-    images,
+    // images,
+  });
+  const newPost = await PostModel.create({
+    author: userMongo?.[0]?._id, // ✅ Corrected
+    content,
   });
 
   return createResponse({
